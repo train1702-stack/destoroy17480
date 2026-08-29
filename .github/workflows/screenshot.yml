@@ -2,7 +2,7 @@ name: Screenshot to Discord
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "45 */2 * * *"
   workflow_dispatch: {}
 
 jobs:
