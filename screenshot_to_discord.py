@@ -25,7 +25,7 @@ TARGET_URL = "https://www.kataller.co.jp/sponsor-top/train/"
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 SCREENSHOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "screenshots")
 VIEWPORT = {"width": 1280, "height": 900}
-TIMEOUT_MS = 60_000  # ページ読み込みのタイムアウト（60秒）
+TIMEOUT_MS = 120_000  # ページ読み込みのタイムアウト（120秒）
 
 
 def take_screenshot() -> str:
